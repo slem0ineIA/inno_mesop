@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mesop = "==0.12.9"
+vertexai = "==1.71.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+init = "mesop init"
+app = "mesop main.py"
+old = "mesop old.py"
